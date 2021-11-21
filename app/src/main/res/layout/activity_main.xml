@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/explicitintent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="150dp"
+        android:text="Klik disini untuk Explicit Intent" />
+
+    <Button
+        android:id="@+id/implicitintent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Klik disini untuk Implicit Intent"/>
+
+    <Button
+        android:id="@+id/latgrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Klik disini untuk lihat Latihan Grid Layout"/>
+
+    <Button
+        android:id="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="305dp"
+        android:text="Klik disini untuk Grid Layout"/>
+
+    <Button
+        android:id="@+id/implicitintent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="355dp"
+        android:text="Klik disini untuk Facebook"/>
+
+    <Button
+        android:id="@+id/implicitintent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="405dp"
+        android:text="Klik disini untuk Instagram"/>
+
+</RelativeLayout>
